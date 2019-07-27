@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ecw.CalculatorSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-07-26T12:20:35" hostname="ATLANTISPC-699" time="0.053">
+  <properties/>
+  <testcase name="GetTotalOfGivenNumber[0]" classname="com.ecw.CalculatorSpec" time="0.052"/>
+  <testcase name="GetTotalOfGivenNumber[1]" classname="com.ecw.CalculatorSpec" time="0.0"/>
+  <testcase name="GetTotalOfGivenNumber[2]" classname="com.ecw.CalculatorSpec" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
