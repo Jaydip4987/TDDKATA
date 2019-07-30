@@ -3,6 +3,8 @@ package com.ecw;
 public class Calculator {
 
 	
+	private String pattern = "[\\n|,]";
+	
 	public int add(String str)
 	{
 		int nResult = 0;
@@ -32,7 +34,7 @@ public class Calculator {
 	}
 
 	private int getResultBasedonNumber(String str, int nResult) {
-		String[] arrOfStr = str.split(",");
+		String[] arrOfStr = str.split(pattern);
 		int nNumber = 0;
 		for(int ii = 0; ii<arrOfStr.length; ii++)
 		{
